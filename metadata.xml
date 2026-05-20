@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <module id="Tenant" tenantId="Tenant" major="1" minor="0" patch="29">
+    <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="FinancialAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Map" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskGrading" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DataMovement" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapPdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DealStructuring" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DealStructuringAdvanced" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="GlobalCashFlow" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstate" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapLgdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Global" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapLgdModelsAdvanced" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstatePdRatings" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Covenant" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="BiStarSchema" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Reis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskReturn" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Workflow" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Apac" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Benchmark" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="BusinessInsights" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Bvd" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="ClimateEsgScorePredictor" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstateLgdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="ConfigConsole" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CreditPresentation" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="EdfX" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="EuropeAfrica" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="FirbAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Marq" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MiddleEast" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="OfflineDataAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Raroc" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskCalcLgd" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Salesforce" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="SpreadingAutomation" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="TermSheet" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MoodysFinal" major="1" minor="0" patch="0" />
+  </module>
+  <models>
+    <model id="Rules" source="custom_rules" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" standardConfig="true">
+      <audit time="2016-09-14T19:07:51.630172Z" />
+    </model>
+    <model id="RuleExecution" source="custom_rule_execution" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" standardConfig="true">
+      <audit time="2016-09-14T19:07:52.9692616Z" />
+    </model>
+    <model id="Report" source="custom_report" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2017-11-24T19:07:51.630172Z" />
+    </model>
+    <model id="Connector" source="custom_connector" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2020-10-08T20:07:51.630172Z" />
+    </model>
+    <model id="Widget" source="custom_widget" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2020-10-08T20:07:52.630172Z" />
+    </model>
+    <model id="DataExtractTableSetting" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core">
+      <audit userId="admin" time="20180620T153854" />
+    </model>
+    <model id="EtlJob" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="DataMovement">
+      <audit userId="admin" time="20210318T111228" />
+    </model>
+    <model id="DataFileImportMap" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="DataMovement" standardConfig="true">
+      <audit userId="admin" time="20161124T064148" />
+    </model>
+    <model id="FinancialCsvMmasConstantMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="FinancialAnalysis">
+      <audit userId="admin" time="20200922T195611" />
+    </model>
+    <model id="CtmScianIndustry" source="custom_lookup" hierarchy="true" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="HierarchyKeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" />
+      <attribute id="Value" dataType="string" />
+      <attribute id="CreditLensStandardIndustry" dataType="string" refId="CreditLensStandardIndustry" />
+      <attribute id="HierarchyKey" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="LevelId" dataType="string" />
+      <attribute id="Parent" dataType="string" />
+      <attribute id="Ancestors" dataType="string" array="true" />
+      <attribute id="Active" dataType="boolean" defaultValue="false" />
+      <audit userId="admin" time="20240117T205404" />
+    </model>
+    <model id="IndustryClassificationMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="FinancialCsvEntityMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="FinancialAnalysis">
+      <audit userId="krishnan" time="20200911T193529" />
+    </model>
+    <model id="FinancialCsvAddressMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="FinancialAnalysis" standardConfig="true">
+      <audit userId="krishnan" time="20200911T200054" />
+    </model>
+    <model id="BusinessPortfolio" source="custom_lookup" hierarchy="true" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core">
+      <audit userId="admin" time="20170220T044829" />
+    </model>
+    <model id="CtmCanalEntradaMultiple" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="KeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="Value" dataType="string" />
+      <attribute id="Module" dataType="string" />
+      <audit userId="admin" time="20250617T205439" />
+    </model>
+    <model id="CtmCanalEntrada" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="KeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="Value" dataType="string" />
+      <audit userId="admin" time="20250617T202949" />
+    </model>
+    <model id="CtmProgramaFondeoEspecial" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="KeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="Value" dataType="string" />
+      <audit userId="admin" time="20250617T163506" />
+    </model>
+    <model id="CtmRegion" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="KeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="Value" dataType="string" />
+      <audit userId="admin" time="20250617T161859" />
+    </model>
+    <model id="Division" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="IndClassification" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="Entity" source="entity" versionEnable="true" dataProvider="postgres" resourceModuleId="Entity" root="true" createUniqueRule="ValidateUniquenessChecking" updateUniqueRule="ValidateUniquenessChecking" includeInDataGridCache="true">
+      <attribute id="CtmCanalEntrada" dataType="string" refId="CtmCanalEntrada" array="true" />
+      <attribute id="CtmCanalEntradaMultiple" dataType="string" refId="CtmCanalEntradaMultiple" />
+      <attribute id="CtmProgramaFondeoEspecial" dataType="string" refId="CtmProgramaFondeoEspecial" />
+      <attribute id="CtmRegion" dataType="string" refId="CtmRegion" />
+      <audit userId="admin" time="20250624T185937" />
+    </model>
+    <model id="FinancialCsvGenbankConstantMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="IdInt" dataType="integer" />
+      <attribute id="Id" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="ConstantType" dataType="string" refId="FinancialCsvConstantType" />
+      <attribute id="TargetAttribute" dataType="string" />
+      <attribute id="SourceAttribute" dataType="string" />
+      <attribute id="DefaultValue" dataType="string" />
+      <audit userId="admin" time="20250722T171826" />
+    </model>
+    <model id="FinancialCsvGENBANKMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="IdInt" dataType="integer" />
+      <attribute id="Id" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="SourceAccount" dataType="string" />
+      <attribute id="TargetAccount" dataType="string" />
+      <attribute id="BalanceType" dataType="integer" refId="BalanceType" />
+      <audit userId="admin" time="20250722T173501" />
+    </model>
+    <model id="FinancialCsvImportMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="FinancialAnalysis">
+      <audit userId="admin" time="20200922T203653" />
+    </model>
+    <model id="FinancialCsvMMASMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="FinancialAnalysis" standardConfig="true">
+      <audit userId="admin" time="20200921T172428" />
+    </model>
+    <model id="UserRole" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core" standardConfig="true">
+      <audit userId="admin" time="2016-09-22T07:39:52.0141859Z" />
+    </model>
+    <model id="NaicsIndustry" source="custom_lookup" hierarchy="true" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity">
+      <audit userId="adminms" time="20260514T211338" />
+    </model>
+  </models>
+  <viewModels>
+    <viewModel id="FinancialCsvEntityCreate" primaryModel="Entity" description="This ViewModel is used to create entity from the data from Financial Csv file" resourceModuleId="FinancialAnalysis">
+      <group id="Default" order="1">
+        <attribute id="CtmRegion" modelId="Entity" modelFieldId="CtmRegion" controlType="singleselect" order="11" />
+        <attribute id="LegalEntity" modelId="Entity" modelFieldId="LegalEntity" controlType="text" order="12" />
+        <attribute id="CtmProgramaFondeoEspecial" modelId="Entity" modelFieldId="CtmProgramaFondeoEspecial" controlType="singleselect" order="13" />
+        <attribute id="Division" modelId="Entity" modelFieldId="Division" controlType="singleselect" order="14" />
+        <attribute id="PrimaryBankingOfficer" modelId="Entity" modelFieldId="PrimaryBankingOfficer" controlType="singleselect" order="15" />
+        <attribute id="PrimaryCreditOfficer" modelId="Entity" modelFieldId="PrimaryCreditOfficer" controlType="singleselect" order="16" />
+        <attribute id="IndClassification" modelId="Entity" modelFieldId="IndClassification" controlType="singleselect" order="17" />
+        <viewModelRef id="EntityAddress" order="18" />
+        <viewModelRef id="IndustrySelection" order="19" />
+        <viewModelRef id="FinancialInfo" order="20" />
+      </group>
+      <audit userId="admin" time="20250619T203615" />
+    </viewModel>
+    <viewModel id="EntityEdit" primaryModel="Entity" description="" resourceModuleId="Entity" allowDraft="true">
+      <group id="BasicDetails" type="accordion" order="1">
+        <group id="CustomerDetails" order="1">
+          <attribute id="CtmCanalEntrada" modelId="Entity" modelFieldId="CtmCanalEntrada" controlType="multiselect" order="7">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="CtmRegion" modelId="Entity" modelFieldId="CtmRegion" controlType="singleselect" order="8">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="TaxId" modelId="Entity" modelFieldId="TaxId" controlType="text" order="9" />
+          <attribute id="CustomerSince" modelId="Entity" modelFieldId="CustomerSince" controlType="datepicker" order="10">
+            <validator>
+              <rule ruleName="ValidateCustomerSince" />
+            </validator>
+            <runRule>ValidateCustomerSince</runRule>
+          </attribute>
+          <attribute id="CountryOfInc" modelId="Entity" modelFieldId="CountryOfInc" controlType="singleselect" order="11" />
+          <attribute id="ProvinceStateOfIncorporation" modelId="Entity" modelFieldId="ProvinceStateOfIncorporation" controlType="singleselect" order="12">
+            <dependsOnAttributes>CountryOfInc</dependsOnAttributes>
+          </attribute>
+          <attribute id="EstablishmentDate" modelId="Entity" modelFieldId="EstablishmentDate" controlType="datepicker" order="13">
+            <validator>
+              <rule ruleName="ValidateDateOfIncorporation" />
+            </validator>
+            <runRule>ValidateDateOfIncorporation</runRule>
+          </attribute>
+          <attribute id="RegistrationNumber" modelId="Entity" modelFieldId="RegistrationNumber" controlType="text" order="14" />
+          <attribute id="OnList" modelId="Entity" modelFieldId="OnList" controlType="singleselect" order="15" />
+          <attribute id="ConnectedParty" modelId="Entity" modelFieldId="ConnectedParty" controlType="checkbox" order="16" />
+          <attribute id="Descriptions" modelId="Entity" modelFieldId="Descriptions" controlType="mtext" order="17" />
+          <attribute id="Gc23" hidden="true" modelId="Entity" modelFieldId="Gc23" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="18" />
+          <attribute id="Gc22" hidden="true" modelId="Entity" modelFieldId="Gc22" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="19" />
+          <attribute id="LockedDate" hidden="true" modelId="Entity" modelFieldId="LockedDate" controlType="datepicker" order="20" />
+          <attribute id="ExternalDataSources" hidden="true" modelId="Entity" modelFieldId="ExternalDataSources" controlType="multiselect" order="21" />
+          <attribute id="LockedBy" hidden="true" modelId="Entity" modelFieldId="LockedBy" controlType="singleselect" order="22" />
+          <attribute id="IsLocked" hidden="true" modelId="Entity" modelFieldId="IsLocked" controlType="checkbox" order="23" />
+          <attribute id="Liquidity" hidden="true" modelId="Entity" modelFieldId="Liquidity" controlType="text" decimals="2" order="24" />
+          <attribute id="NetWorth" hidden="true" modelId="Entity" modelFieldId="NetWorth" controlType="text" decimals="2" order="25" />
+          <attribute id="CtmProgramaFondeoEspecial" modelId="Entity" modelFieldId="CtmProgramaFondeoEspecial" controlType="singleselect" order="26" />
+        </group>
+        <group id="Organization" order="3">
+          <attribute id="Division" modelId="Entity" modelFieldId="Division" controlType="singleselect" order="2">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+        </group>
+        <group id="ContactDetails" order="5" />
+        <group id="Address" order="6" />
+      </group>
+      <group id="Documents" order="4" />
+      <group id="BvdBankFocus" action="show" actionRule="IsBvdEntity" order="5" />
+      <group id="Proposals" order="6" />
+      <group id="BvdOsiris" action="show" actionRule="IsBvdOsirisEntity" order="7" />
+      <group id="KnowYourCustomer" action="show" actionRule="HasKycLicense" order="8" />
+      <group id="ReorganizationHistory" order="9" />
+      <group id="MoodysEntityData" type="accordion" action="show" actionRule="IsOrbisEntity" order="10" />
+      <group id="Ownership" type="accordion" action="show" actionRule="CanShowOwnerShipTab" order="11" />
+      <audit userId="admin" time="20250624T190159" />
+    </viewModel>
+    <viewModel id="EntityEditIndividual" primaryModel="Entity" resourceModuleId="Entity" allowDraft="true">
+      <group id="BasicDetails" type="accordion" order="1">
+        <group id="CustomerDetails" order="1">
+          <attribute id="CtmCanalEntrada" modelId="Entity" modelFieldId="CtmCanalEntrada" controlType="multiselect" order="8" />
+          <attribute id="CtmRegion" modelId="Entity" modelFieldId="CtmRegion" controlType="singleselect" order="9">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="TaxId" modelId="Entity" modelFieldId="TaxId" controlType="text" order="10" />
+          <attribute id="ExternalDataSources" hidden="true" readonly="true" modelId="Entity" modelFieldId="ExternalDataSources" controlType="multiselect" order="11" />
+          <attribute id="CustomerSince" modelId="Entity" modelFieldId="CustomerSince" controlType="datepicker" order="12">
+            <validator>
+              <rule ruleName="ValidateCustomerSince" />
+            </validator>
+            <runRule>ValidateCustomerSince</runRule>
+          </attribute>
+          <attribute id="OnList" modelId="Entity" modelFieldId="OnList" controlType="singleselect" order="13" />
+          <attribute id="Bankruptcy" modelId="Entity" modelFieldId="Bankruptcy" controlType="singleselect" defaultValue="Unknown" order="14" />
+          <attribute id="ConnectedParty" modelId="Entity" modelFieldId="ConnectedParty" controlType="checkbox" order="15" />
+          <attribute id="Descriptions" modelId="Entity" modelFieldId="Descriptions" controlType="mtext" order="16" />
+          <attribute id="Gc23" hidden="true" modelId="Entity" modelFieldId="Gc23" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="17" />
+          <attribute id="Gc22" hidden="true" modelId="Entity" modelFieldId="Gc22" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="18" />
+          <attribute id="LockedDate" hidden="true" modelId="Entity" modelFieldId="LockedDate" controlType="datepicker" order="19" />
+          <attribute id="LockedBy" hidden="true" modelId="Entity" modelFieldId="LockedBy" controlType="singleselect" order="20" />
+          <attribute id="IsLocked" hidden="true" modelId="Entity" modelFieldId="IsLocked" controlType="checkbox" order="21" />
+          <attribute id="ValuationMethodology" modelId="Entity" modelFieldId="ValuationMethodology" controlType="singleselect" defaultValue="NotAvailable" order="22" />
+          <attribute id="EnterpriseValueToTotalDebt" modelId="Entity" modelFieldId="EnterpriseValueToTotalDebt" controlType="singleselect" defaultValue="NotAvailable" order="23" />
+          <attribute id="Liquidity" hidden="true" modelId="Entity" modelFieldId="Liquidity" controlType="text" decimals="2" order="24" />
+          <attribute id="NetWorth" hidden="true" modelId="Entity" modelFieldId="NetWorth" controlType="text" decimals="2" order="25" />
+          <attribute id="CtmProgramaFondeoEspecial" modelId="Entity" modelFieldId="CtmProgramaFondeoEspecial" controlType="singleselect" order="26" />
+        </group>
+        <group id="Organization" order="4">
+          <attribute id="Division" modelId="Entity" modelFieldId="Division" controlType="singleselect" order="2">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+        </group>
+      </group>
+      <group id="Documents" order="4" />
+      <group id="BvdBankFocus" action="show" actionRule="IsBvdEntity" order="5" />
+      <group id="Proposals" order="6" />
+      <group id="BvdOsiris" action="show" actionRule="IsBvdOsirisEntity" order="7" />
+      <group id="KnowYourCustomer" action="show" actionRule="HasKycLicense" order="8" />
+      <group id="MoodysEntityData" type="accordion" action="show" actionRule="IsOrbisEntity" order="9" />
+      <group id="Ownership" type="accordion" action="show" actionRule="CanShowOwnerShipTab" order="10" />
+      <audit userId="admin" time="20250624T190338" />
+    </viewModel>
+    <viewModel id="EntityEditOthers" primaryModel="Entity" resourceModuleId="Entity" allowDraft="true">
+      <group id="BasicDetails" type="accordion" order="1">
+        <group id="CustomerDetails" order="1">
+          <attribute id="CtmCanalEntrada" modelId="Entity" modelFieldId="CtmCanalEntrada" controlType="multiselect" order="7" />
+          <attribute id="CtmRegion" modelId="Entity" modelFieldId="CtmRegion" controlType="singleselect" order="8">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="TaxId" modelId="Entity" modelFieldId="TaxId" controlType="text" order="9" />
+          <attribute id="CustomerSince" modelId="Entity" modelFieldId="CustomerSince" controlType="datepicker" order="10">
+            <validator>
+              <rule ruleName="ValidateCustomerSince" />
+            </validator>
+            <runRule>ValidateCustomerSince</runRule>
+          </attribute>
+          <attribute id="CountryOfInc" modelId="Entity" modelFieldId="CountryOfInc" controlType="singleselect" order="11" />
+          <attribute id="ProvinceStateOfIncorporation" modelId="Entity" modelFieldId="ProvinceStateOfIncorporation" controlType="singleselect" order="12">
+            <dependsOnAttributes>CountryOfInc</dependsOnAttributes>
+          </attribute>
+          <attribute id="EstablishmentDate" modelId="Entity" modelFieldId="EstablishmentDate" controlType="datepicker" order="13">
+            <validator>
+              <rule ruleName="ValidateDateOfIncorporation" />
+            </validator>
+            <runRule>ValidateDateOfIncorporation</runRule>
+          </attribute>
+          <attribute id="RegistrationNumber" modelId="Entity" modelFieldId="RegistrationNumber" controlType="text" order="14" />
+          <attribute id="OnList" modelId="Entity" modelFieldId="OnList" controlType="singleselect" order="15" />
+          <attribute id="ConnectedParty" modelId="Entity" modelFieldId="ConnectedParty" controlType="checkbox" order="16" />
+          <attribute id="Descriptions" modelId="Entity" modelFieldId="Descriptions" controlType="mtext" order="17" />
+          <attribute id="Gc23" hidden="true" modelId="Entity" modelFieldId="Gc23" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="18" />
+          <attribute id="Gc22" hidden="true" modelId="Entity" modelFieldId="Gc22" controlType="text" action="show" actionRule="ShowMonYearBusinessStarted" order="19" />
+          <attribute id="LockedDate" hidden="true" modelId="Entity" modelFieldId="LockedDate" controlType="datepicker" order="20" />
+          <attribute id="LockedBy" hidden="true" modelId="Entity" modelFieldId="LockedBy" controlType="singleselect" order="21" />
+          <attribute id="IsLocked" hidden="true" modelId="Entity" modelFieldId="IsLocked" controlType="checkbox" order="22" />
+          <attribute id="Liquidity" hidden="true" modelId="Entity" modelFieldId="Liquidity" controlType="text" decimals="2" order="23" />
+          <attribute id="ExternalDataSources" hidden="true" modelId="Entity" modelFieldId="ExternalDataSources" controlType="multiselect" order="24" />
+          <attribute id="NetWorth" hidden="true" modelId="Entity" modelFieldId="NetWorth" controlType="text" decimals="2" order="25" />
+          <attribute id="CtmProgramaFondeoEspecial" modelId="Entity" modelFieldId="CtmProgramaFondeoEspecial" controlType="singleselect" order="26" />
+        </group>
+        <group id="Organization" order="3">
+          <attribute id="Division" modelId="Entity" modelFieldId="Division" controlType="singleselect" order="2">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+        </group>
+      </group>
+      <group id="Documents" order="4" />
+      <group id="BvdBankFocus" action="show" actionRule="IsBvdEntity" order="5" />
+      <group id="Proposals" order="6" />
+      <group id="BvdOsiris" action="show" actionRule="IsBvdOsirisEntity" order="7" />
+      <group id="KnowYourCustomer" action="show" actionRule="HasKycLicense" order="8" />
+      <group id="MoodysEntityData" type="accordion" action="show" actionRule="IsOrbisEntity" order="9" />
+      <group id="Ownership" type="accordion" action="show" actionRule="CanShowOwnerShipTab" order="10" />
+      <audit userId="admin" time="20250624T190410" />
+    </viewModel>
+  </viewModels>
+  <references>
+    <ref id="DataExtractTableSetting" modelRefId="DataExtractTableSetting" type="DATAEXTRACTTABLESETTING" localeSupport="false" shared="false" resourceModuleId="Core">
+      <audit userId="leninms" time="20250606T152214" />
+    </ref>
+    <ref id="EtlJob" modelRefId="EtlJob" type="ETLJOB" shared="false" resourceModuleId="DataMovement">
+      <audit userId="admin" time="20250611T171527" />
+    </ref>
+    <ref id="DataFileImportMap" modelRefId="DataFileImportMap" type="DATAFILEIMPORTMAP" resourceModuleId="DataMovement">
+      <audit userId="admin" time="20250611T171853" />
+    </ref>
+    <ref id="FinancialCsvMmasConstantMapping" modelRefId="FinancialCsvMmasConstantMapping" type="FINANCIALCSVMMASCONSTANTMAPPING" shared="false" resourceModuleId="FinancialAnalysis">
+      <audit userId="admin" time="20250611T175014" />
+    </ref>
+    <ref id="CtmScianIndustry" modelRefId="CtmScianIndustry" hierarchical="true" type="CTMSCIANINDUSTRY" activeRoot="true" numberOfLevels="3" resourceModuleId="Tenant">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+          <level modelFieldId="LevelId" />
+          <hierarchyKey modelFieldId="HierarchyKey" />
+        </projection>
+        <filters>
+          <filter id="Key" modelFieldId="Key" />
+          <filter id="LevelId" modelFieldId="LevelId" />
+          <filter id="HierarchyKey" modelFieldId="HierarchyKey" />
+          <filter id="From" modelFieldId="HierarchyKey" scopeQualifier="ancestors" param="true" />
+          <filter id="Children" modelFieldId="HierarchyKey" scopeQualifier="parent" param="true" />
+          <filter id="Active" modelFieldId="Active" scopeQualifier="active" param="true" />
+        </filters>
+        <sortOrders>
+          <sortOrder modelFieldId="Key" direction="asc" />
+        </sortOrders>
+      </query>
+      <hierarchy>
+        <levelMappingInfo id="Anio" level="1" />
+        <levelMappingInfo id="Sector" level="2">
+          <attributeMap id="CreditLensStandardIndustry" modelAttributeId="CreditLensStandardIndustry" />
+        </levelMappingInfo>
+        <levelMappingInfo id="Industria" level="3" />
+      </hierarchy>
+      <audit userId="admin" time="20240117T205405" />
+    </ref>
+    <ref id="IndustryClassificationMapping" modelRefId="IndustryClassificationMapping" mappingType="true" mappingArtifactType="Reference" type="INDUSTRYCLASSIFICATIONMAPPING" shared="false" resourceModuleId="Entity">
+      <audit userId="admin" time="20250617T172455" />
+    </ref>
+    <ref id="FinancialCsvEntityMapping" modelRefId="FinancialCsvEntityMapping" type="FINANCIALCSVENTITYMAPPING" shared="false" resourceModuleId="FinancialAnalysis" isExternalDataSrc="true" dataSource="FinancialCsv" targetArtifactId="Entity">
+      <audit userId="admin" time="20250619T202606" />
+    </ref>
+    <ref id="FinancialCsvAddressMapping" modelRefId="FinancialCsvAddressMapping" type="FINANCIALCSVADDRESSMAPPING" shared="false" resourceModuleId="FinancialAnalysis" isExternalDataSrc="true" dataSource="FinancialCsv" targetArtifactId="Address">
+      <audit userId="admin" time="20250619T205631" />
+    </ref>
+    <ref id="BusinessPortfolio" modelRefId="BusinessPortfolio" hierarchical="true" type="BUSINESSPORTFOLIO" noChildIsLeaf="true" numberOfLevels="3" resourceModuleId="Core">
+      <audit userId="admin" time="20250617T165217" />
+    </ref>
+    <ref id="CtmCanalEntradaMultiple" modelRefId="CtmCanalEntradaMultiple" type="CTMCANALENTRADAMULTIPLE" multiModule="true">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+        </projection>
+        <filters>
+          <filter id="" modelFieldId="Value" defaultValue="" multiSelect="true" />
+          <filter id="Module" modelFieldId="Module" />
+        </filters>
+      </query>
+      <audit userId="admin" time="20250617T205440" />
+    </ref>
+    <ref id="CtmCanalEntrada" modelRefId="CtmCanalEntrada" type="CTMCANALENTRADA" resourceModuleId="Tenant">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+        </projection>
+        <filters>
+          <filter id="" modelFieldId="Value" defaultValue="" multiSelect="true" />
+        </filters>
+      </query>
+      <audit userId="admin" time="20250617T202950" />
+    </ref>
+    <ref id="CtmProgramaFondeoEspecial" modelRefId="CtmProgramaFondeoEspecial" type="CTMPROGRAMAFONDEOESPECIAL">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+        </projection>
+      </query>
+      <audit userId="admin" time="20250617T163506" />
+    </ref>
+    <ref id="CtmRegion" modelRefId="CtmRegion" type="CTMREGION">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+        </projection>
+      </query>
+      <audit userId="admin" time="20250617T161859" />
+    </ref>
+    <ref id="Division" modelRefId="Division" type="DIVISION" shared="false" resourceModuleId="Entity">
+      <audit userId="admin" time="20250617T170547" />
+    </ref>
+    <ref id="IndClassification" modelRefId="IndClassification" type="INDCLASSIFICATION" shared="false" resourceModuleId="Entity">
+      <audit userId="admin" time="20250617T172136" />
+    </ref>
+    <ref id="FinancialCsvGenbankConstantMapping" modelRefId="FinancialCsvGenbankConstantMapping" type="FINANCIALCSVGENBANKCONSTANTMAPPING">
+      <query>
+        <projection>
+          <key modelFieldId="Id" />
+          <display modelFieldIds="ConstantType" />
+        </projection>
+        <filters>
+          <filter id="Key" modelFieldId="ConstantType" defaultValue="" />
+          <filter id="" modelFieldId="TargetAttribute" defaultValue="" required="true" />
+          <filter id="" modelFieldId="SourceAttribute" defaultValue="" />
+          <filter id="" modelFieldId="DefaultValue" defaultValue="" />
+        </filters>
+      </query>
+      <audit userId="admin" time="20250722T171827" />
+    </ref>
+    <ref id="FinancialCsvGENBANKMapping" modelRefId="FinancialCsvGENBANKMapping" type="FINANCIALCSVGENBANKMAPPING" isExternalDataSrc="true" dataSource="FinancialCsv" targetArtifactId="25">
+      <query>
+        <projection>
+          <key modelFieldId="Id" />
+          <display modelFieldIds="SourceAccount" />
+        </projection>
+        <filters>
+          <filter id="" modelFieldId="TargetAccount" defaultValue="" required="true" isMappingAttribute="true" />
+          <filter id="" modelFieldId="BalanceType" defaultValue="" />
+        </filters>
+      </query>
+      <audit userId="admin" time="20250722T173502" />
+    </ref>
+    <ref id="FinancialCsvImportMapping" modelRefId="FinancialCsvImportMapping" type="FINANCIALCSVIMPORTMAPPING" shared="false" resourceModuleId="FinancialAnalysis">
+      <audit userId="admin" time="20250730T181843" />
+    </ref>
+    <ref id="FinancialCsvMMASMapping" modelRefId="FinancialCsvMMASMapping" type="FINANCIALCSVMMASMAPPING" shared="false" resourceModuleId="FinancialAnalysis" isExternalDataSrc="true" dataSource="FinancialCsv" targetArtifactId="6">
+      <audit userId="admin" time="20250611T163815" />
+    </ref>
+    <ref id="UserRole" modelRefId="UserRole" type="USERROLE" resourceModuleId="Core">
+      <audit userId="leninms" time="20250805T000420" />
+    </ref>
+    <ref id="NaicsIndustry" modelRefId="NaicsIndustry" hierarchical="true" type="NAICSINDUSTRY" activeRoot="true" numberOfLevels="4" shared="false" resourceModuleId="Entity">
+      <audit userId="adminms" time="20260514T211340" />
+    </ref>
+  </references>
+</metadata>

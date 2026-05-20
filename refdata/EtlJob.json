@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "ETLJOB",
+    "JobNameInt": 573192233,
+    "JobName": "Financial CSV Import-GENBANK",
+    "JobFrequency": "0 0 0 * * ?",
+    "FileName": "FAImport_GENBANK.csv",
+    "ImportCategory": "FinancialImport",
+    "TrailingChar": "#",
+    "JobClass": "FinancialAnalysis.CSVImport.CSVImportJob, FinancialAnalysis.CSVImport",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EtlJob"
+  },
+  {
+    "Type": "ETLJOB",
+    "JobNameInt": 479325705,
+    "JobName": "Financial CSV Import-MMAS",
+    "JobFrequency": "0 0 0 * * ?",
+    "FileName": "FAImport_MMAS.csv",
+    "ImportCategory": "FinancialImport",
+    "TrailingChar": "#",
+    "JobClass": "FinancialAnalysis.CSVImport.CSVImportJob, FinancialAnalysis.CSVImport",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EtlJob"
+  }
+]

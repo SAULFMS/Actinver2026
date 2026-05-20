@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 424629543,
+    "Key": "No Aplica",
+    "Value": "No Aplica",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 1391106608,
+    "Key": "OIBD",
+    "Value": "Otras Instituciones de Banca de Desarrollo",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 1239450914,
+    "Key": "Otras Instituciones de Banca de Desarrollo",
+    "Value": "Otras Instituciones de Banca de Desarrollo",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 1215072001,
+    "Key": "Programa FIRA",
+    "Value": "Programa FIRA",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 443346501,
+    "Key": "Programa IFC",
+    "Value": "Programa IFC",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 144562651,
+    "Key": "Programa NAFIN",
+    "Value": "Programa NAFIN",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  },
+  {
+    "Type": "CTMPROGRAMAFONDEOESPECIAL",
+    "KeyInt": 308573894,
+    "Key": "Programa SHF",
+    "Value": "Programa SHF",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmProgramaFondeoEspecial"
+  }
+]

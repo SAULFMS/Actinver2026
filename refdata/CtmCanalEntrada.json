@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 1656317335,
+    "Key": "Arrendadora",
+    "Value": "Arrendadora",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  },
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 1750402631,
+    "Key": "Banca Corporativa",
+    "Value": "Banca Corporativa",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  },
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 1576085908,
+    "Key": "Banca Empresarial",
+    "Value": "Banca Empresarial",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  },
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 1815959789,
+    "Key": "Banca Privada/Wealth Management",
+    "Value": "Banca Privada/Wealth Management",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  },
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 2084654854,
+    "Key": "Tesorería",
+    "Value": "Tesorería",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  },
+  {
+    "Type": "CTMCANALENTRADA",
+    "KeyInt": 1354202036,
+    "Key": "Transaccional",
+    "Value": "Transaccional",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmCanalEntrada"
+  }
+]

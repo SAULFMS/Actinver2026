@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 326647033,
+    "Key": "MEX",
+    "Value": "México",
+    "HierarchyKey": "CB|MEX",
+    "LevelId": "Region",
+    "Parent": "CB",
+    "Ancestors": [
+      "CB"
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1719833387,
+    "Key": "MX",
+    "Value": "México",
+    "HierarchyKey": "CB|AMER|MX",
+    "LevelId": "Country",
+    "Parent": "CB|AMER",
+    "Ancestors": [
+      "CB",
+      "CB|AMER"
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  }
+]

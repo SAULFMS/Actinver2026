@@ -1,0 +1,2164 @@
+[
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 408699352,
+    "Key": "11",
+    "Value": "Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",
+    "CreditLensStandardIndustry": "Agriculture",
+    "HierarchyKey": "2024|11",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 777590041,
+    "Key": "111",
+    "Value": "Agricultura",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|11|111",
+    "LevelId": "Industria",
+    "Parent": "2024|11",
+    "Ancestors": [
+      "2024",
+      "2024|11"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 777590044,
+    "Key": "112",
+    "Value": "Cría y explotación de animales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|11|112",
+    "LevelId": "Industria",
+    "Parent": "2024|11",
+    "Ancestors": [
+      "2024",
+      "2024|11"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 777590043,
+    "Key": "113",
+    "Value": "Aprovechamiento forestal",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|11|113",
+    "LevelId": "Industria",
+    "Parent": "2024|11",
+    "Ancestors": [
+      "2024",
+      "2024|11"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 777590046,
+    "Key": "114",
+    "Value": "Pesca, caza y captura",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|11|114",
+    "LevelId": "Industria",
+    "Parent": "2024|11",
+    "Ancestors": [
+      "2024",
+      "2024|11"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 777590045,
+    "Key": "115",
+    "Value": "Servicios relacionados con las actividades agropecuarias y forestales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|11|115",
+    "LevelId": "Industria",
+    "Parent": "2024|11",
+    "Ancestors": [
+      "2024",
+      "2024|11"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1282407338,
+    "Key": "2024",
+    "Value": "2024",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024",
+    "LevelId": "Anio",
+    "Parent": null,
+    "Ancestors": null,
+    "Active": true,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 811983879,
+    "Key": "21",
+    "Value": "Minería",
+    "CreditLensStandardIndustry": "Mining",
+    "HierarchyKey": "2024|21",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1697178721,
+    "Key": "211",
+    "Value": "Extracción de petróleo y gas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|21|211",
+    "LevelId": "Industria",
+    "Parent": "2024|21",
+    "Ancestors": [
+      "2024",
+      "2024|21"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1697178718,
+    "Key": "212",
+    "Value": "Minería de metales metálicos y no metálicos, excepto petróleo y gas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|21|212",
+    "LevelId": "Industria",
+    "Parent": "2024|21",
+    "Ancestors": [
+      "2024",
+      "2024|21"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1697178719,
+    "Key": "213",
+    "Value": "Servicios relacionados con la minería",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|21|213",
+    "LevelId": "Industria",
+    "Parent": "2024|21",
+    "Ancestors": [
+      "2024",
+      "2024|21"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 811983882,
+    "Key": "22",
+    "Value": "Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+    "CreditLensStandardIndustry": "Other",
+    "HierarchyKey": "2024|22",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 131095801,
+    "Key": "221",
+    "Value": "Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|22|221",
+    "LevelId": "Industria",
+    "Parent": "2024|22",
+    "Ancestors": [
+      "2024",
+      "2024|22"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 811983881,
+    "Key": "23",
+    "Value": "Construcción",
+    "CreditLensStandardIndustry": "Construction",
+    "HierarchyKey": "2024|23",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 712496538,
+    "Key": "236",
+    "Value": "Edificación",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|23|236",
+    "LevelId": "Industria",
+    "Parent": "2024|23",
+    "Ancestors": [
+      "2024",
+      "2024|23"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 712496539,
+    "Key": "237",
+    "Value": "Construcción de obras de ingeniería civil",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|23|237",
+    "LevelId": "Industria",
+    "Parent": "2024|23",
+    "Ancestors": [
+      "2024",
+      "2024|23"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 712496524,
+    "Key": "238",
+    "Value": "Trabajos especializados para la construcción",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|23|238",
+    "LevelId": "Industria",
+    "Parent": "2024|23",
+    "Ancestors": [
+      "2024",
+      "2024|23"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1246861948,
+    "Key": "311",
+    "Value": "Industria alimentaria",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|311",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1828261655,
+    "Key": "312",
+    "Value": "Industria de las bebidas y del tabaco",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|312",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 262177714,
+    "Key": "313",
+    "Value": "Fabricación de insumos de textiles y acabados de textiles",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|313",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 658974039,
+    "Key": "31-33",
+    "Value": "Industrias manufactureras",
+    "CreditLensStandardIndustry": "Manufacturing",
+    "HierarchyKey": "2024|31-33",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 843577421,
+    "Key": "314",
+    "Value": "Fabricación de productos textiles, excepto prendas de vestir",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|314",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1424977128,
+    "Key": "315",
+    "Value": "Fabricación de prendas de vestir",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|315",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2006376835,
+    "Key": "316",
+    "Value": "Curtido y acabado de cuero y piel, y fabricación de productos de cuero, piel y materiales sucedáneos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|316",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1246861947,
+    "Key": "321",
+    "Value": "Industria de la madera",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|321",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1828261654,
+    "Key": "322",
+    "Value": "Industria del papel",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|322",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 262177713,
+    "Key": "323",
+    "Value": "Impresión e industrias conexas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|323",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 843577420,
+    "Key": "324",
+    "Value": "Fabricación de productos derivados del petróleo y del carbón",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|324",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1424977127,
+    "Key": "325",
+    "Value": "Industria química",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|325",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2006376834,
+    "Key": "326",
+    "Value": "Industria del plástico y del hule",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|326",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 440292893,
+    "Key": "327",
+    "Value": "Fabricación de productos a base de minerales no metálicos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|327",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1246861946,
+    "Key": "331",
+    "Value": "Industrias metálicas básicas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|331",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1828261653,
+    "Key": "332",
+    "Value": "Fabricación de productos metálicos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|332",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 262177712,
+    "Key": "333",
+    "Value": "Fabricación de maquinaria y equipo",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|333",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 843577419,
+    "Key": "334",
+    "Value": "Fabricación de equipo de computación, comunicación, medición y de otros equipos, componentes y accesorios electrónicos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|334",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1424977126,
+    "Key": "335",
+    "Value": "Fabricación de accesorios, aparatos eléctricos y equipo de generación de energía eléctrica",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|335",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2006376833,
+    "Key": "336",
+    "Value": "Fabricación de equipo de transporte",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|336",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 440292892,
+    "Key": "337",
+    "Value": "Fabricación de muebles, colchones y persianas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|337",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1603092306,
+    "Key": "339",
+    "Value": "Otras industrias manufactureras",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|31-33|339",
+    "LevelId": "Industria",
+    "Parent": "2024|31-33",
+    "Ancestors": [
+      "2024",
+      "2024|31-33"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1796668115,
+    "Key": "43",
+    "Value": "Comercio al por mayor",
+    "CreditLensStandardIndustry": "Wholesale",
+    "HierarchyKey": "2024|43",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802961,
+    "Key": "431",
+    "Value": "Comercio al por mayor de abarrotes, alimentos, bebidas, hielo y tabaco",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|431",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802958,
+    "Key": "432",
+    "Value": "Comercio al por mayor de productos textiles y calzado",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|432",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802959,
+    "Key": "433",
+    "Value": "Comercio al por mayor de productos farmacéuticos, de perfumería, artículos para el esparcimiento, electrodomésticos menores y aparatos de línea blanca",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|433",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802956,
+    "Key": "434",
+    "Value": "Comercio al por mayor de materias primas agropecuarias y forestales, para la industria, y materiales de desecho",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|434",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802957,
+    "Key": "435",
+    "Value": "Comercio al por mayor de maquinaria, equipo y mobiliario para actividades agropecuarias, industriales, de servicios y comerciales, y de otra maquinaria y equipo de uso general",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|435",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802954,
+    "Key": "436",
+    "Value": "Comercio al por mayor de camiones y de partes y refacciones nuevas para automóviles, camionetas y camiones",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|436",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1020802955,
+    "Key": "437",
+    "Value": "Intermediación de comercio al por mayor",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|43|437",
+    "LevelId": "Industria",
+    "Parent": "2024|43",
+    "Ancestors": [
+      "2024",
+      "2024|43"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1796668120,
+    "Key": "46",
+    "Value": "Comercio al por menor",
+    "CreditLensStandardIndustry": "Retail",
+    "HierarchyKey": "2024|46",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291141,
+    "Key": "461",
+    "Value": "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|461",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291140,
+    "Key": "462",
+    "Value": "Comercio al por menor en tiendas de autoservicio y departamentales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|462",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291139,
+    "Key": "463",
+    "Value": "Comercio al por menor de productos textiles, bisutería, accesorios de vestir y calzado",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|463",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291146,
+    "Key": "464",
+    "Value": "Comercio al por menor de artículos para el cuidado de la salud",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|464",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291145,
+    "Key": "465",
+    "Value": "Comercio al por menor de artículos de papelería, para el esparcimiento y otros artículos de uso personal",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|465",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291144,
+    "Key": "466",
+    "Value": "Comercio al por menor de enseres domésticos, computadoras, artículos para la decoración de interiores y artículos usados",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|466",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291143,
+    "Key": "467",
+    "Value": "Comercio al por menor de artículos de ferretería, tlapalería y vidrios",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|467",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291134,
+    "Key": "468",
+    "Value": "Comercio al por menor de vehículos de motor, refacciones, combustibles y lubricantes",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|468",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 261291133,
+    "Key": "469",
+    "Value": "Intermediación de comercio al por menor, y comercio al por menor a través de catálogos impresos, televisión y similares",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|46|469",
+    "LevelId": "Industria",
+    "Parent": "2024|46",
+    "Ancestors": [
+      "2024",
+      "2024|46"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 977071109,
+    "Key": "481",
+    "Value": "Transporte aéreo",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|481",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1380355636,
+    "Key": "482",
+    "Value": "Transporte por ferrocarril",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|482",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1961755343,
+    "Key": "483",
+    "Value": "Transporte por agua",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|483",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 573786582,
+    "Key": "484",
+    "Value": "Autotransporte de carga",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|484",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 71184154,
+    "Key": "48-49",
+    "Value": "Transportes, correos y almacenamiento",
+    "CreditLensStandardIndustry": "Transportation",
+    "HierarchyKey": "2024|48-49",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1155186289,
+    "Key": "485",
+    "Value": "Transporte terrestre de pasajeros, excepto por ferrocarril",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|485",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1558470816,
+    "Key": "486",
+    "Value": "Transporte por ductos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|486",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2139870523,
+    "Key": "487",
+    "Value": "Transporte turístico",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|487",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 39441042,
+    "Key": "488",
+    "Value": "Servicios relacionados con el transporte",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|488",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 977071108,
+    "Key": "491",
+    "Value": "Servicios postales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|491",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1380355635,
+    "Key": "492",
+    "Value": "Servicios de mensajería y paquetería",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|492",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1961755342,
+    "Key": "493",
+    "Value": "Servicios de almacenamiento",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|48-49|493",
+    "LevelId": "Industria",
+    "Parent": "2024|48-49",
+    "Ancestors": [
+      "2024",
+      "2024|48-49"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584172,
+    "Key": "51",
+    "Value": "Información en medios masivos",
+    "CreditLensStandardIndustry": "Information",
+    "HierarchyKey": "2024|51",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871116,
+    "Key": "512",
+    "Value": "Industria fílmica y del video, e industria del sonido",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|512",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871115,
+    "Key": "513",
+    "Value": "Edición de periódicos, revistas, libros, directorios, software y otros materiales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|513",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871112,
+    "Key": "516",
+    "Value": "Radio y televisión y provisión de contenido",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|516",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871111,
+    "Key": "517",
+    "Value": "Telecomunicaciones",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|517",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871106,
+    "Key": "518",
+    "Value": "Provisión de infraestructura de servicios de cómputo, procesamiento de datos, hospedaje de páginas de internet y otros servicios relacionados",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|518",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1101871105,
+    "Key": "519",
+    "Value": "Bibliotecas, archivos, portales de búsqueda en la red y otros servicios de suministro de información",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|51|519",
+    "LevelId": "Industria",
+    "Parent": "2024|51",
+    "Ancestors": [
+      "2024",
+      "2024|51"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584175,
+    "Key": "52",
+    "Value": "Servicios financieros y de seguros",
+    "CreditLensStandardIndustry": "Finance",
+    "HierarchyKey": "2024|52",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 520472497,
+    "Key": "521",
+    "Value": "Banca central",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|52|521",
+    "LevelId": "Industria",
+    "Parent": "2024|52",
+    "Ancestors": [
+      "2024",
+      "2024|52"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 520472494,
+    "Key": "522",
+    "Value": "Instituciones de intermediación crediticia y financiera no bursátil",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|52|522",
+    "LevelId": "Industria",
+    "Parent": "2024|52",
+    "Ancestors": [
+      "2024",
+      "2024|52"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 520472495,
+    "Key": "523",
+    "Value": "Actividades bursátiles, cambiarias y de inversión financiera",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|52|523",
+    "LevelId": "Industria",
+    "Parent": "2024|52",
+    "Ancestors": [
+      "2024",
+      "2024|52"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 520472492,
+    "Key": "524",
+    "Value": "Compañías de seguros, fianzas, y administración de fondos para el retiro",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|52|524",
+    "LevelId": "Industria",
+    "Parent": "2024|52",
+    "Ancestors": [
+      "2024",
+      "2024|52"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 520472493,
+    "Key": "525",
+    "Value": "Sociedades de inversión especializadas en fondos para el retiro y fondos de inversión",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|52|525",
+    "LevelId": "Industria",
+    "Parent": "2024|52",
+    "Ancestors": [
+      "2024",
+      "2024|52"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584174,
+    "Key": "53",
+    "Value": "Servicios inmobiliarios y de alquiler de bienes muebles e intangibles",
+    "CreditLensStandardIndustry": "RealEstate",
+    "HierarchyKey": "2024|53",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2086557525,
+    "Key": "531",
+    "Value": "Servicios inmobiliarios",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|53|531",
+    "LevelId": "Industria",
+    "Parent": "2024|53",
+    "Ancestors": [
+      "2024",
+      "2024|53"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2086557524,
+    "Key": "532",
+    "Value": "Servicio de alquiler de bienes muebles",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|53|532",
+    "LevelId": "Industria",
+    "Parent": "2024|53",
+    "Ancestors": [
+      "2024",
+      "2024|53"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2086557523,
+    "Key": "533",
+    "Value": "Servicio de alquiler de marcas registradas, patentes y franquicias",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|53|533",
+    "LevelId": "Industria",
+    "Parent": "2024|53",
+    "Ancestors": [
+      "2024",
+      "2024|53"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584177,
+    "Key": "54",
+    "Value": "Servicios profesionales, científicos y técnicos",
+    "CreditLensStandardIndustry": "Professional",
+    "HierarchyKey": "2024|54",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1505158645,
+    "Key": "541",
+    "Value": "Servicios profesionales, científicos y técnicos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|54|541",
+    "LevelId": "Industria",
+    "Parent": "2024|54",
+    "Ancestors": [
+      "2024",
+      "2024|54"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584176,
+    "Key": "55",
+    "Value": "Dirección y administración de grupos empresariales o corporativos",
+    "CreditLensStandardIndustry": "Management",
+    "HierarchyKey": "2024|55",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 923760025,
+    "Key": "551",
+    "Value": "Dirección y administración de grupos empresariales o corporativos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|55|551",
+    "LevelId": "Industria",
+    "Parent": "2024|55",
+    "Ancestors": [
+      "2024",
+      "2024|55"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 230584179,
+    "Key": "56",
+    "Value": "Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",
+    "CreditLensStandardIndustry": "Administrative",
+    "HierarchyKey": "2024|56",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 342361409,
+    "Key": "561",
+    "Value": "Servicios de apoyo a los negocios",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|56|561",
+    "LevelId": "Industria",
+    "Parent": "2024|56",
+    "Ancestors": [
+      "2024",
+      "2024|56"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 342361406,
+    "Key": "562",
+    "Value": "Manejo de residuos y servicios de remediación",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|56|562",
+    "LevelId": "Industria",
+    "Parent": "2024|56",
+    "Ancestors": [
+      "2024",
+      "2024|56"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 633868699,
+    "Key": "61",
+    "Value": "Servicios Educativos",
+    "CreditLensStandardIndustry": "Educational",
+    "HierarchyKey": "2024|61",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 2021459793,
+    "Key": "611",
+    "Value": "Servicios educativos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|61|611",
+    "LevelId": "Industria",
+    "Parent": "2024|61",
+    "Ancestors": [
+      "2024",
+      "2024|61"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 633868702,
+    "Key": "62",
+    "Value": "Servicios de salud y asistencia social",
+    "CreditLensStandardIndustry": "Health",
+    "HierarchyKey": "2024|62",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 455376873,
+    "Key": "621",
+    "Value": "Servicios médicos de consulta externa y servicios relacionados",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|62|621",
+    "LevelId": "Industria",
+    "Parent": "2024|62",
+    "Ancestors": [
+      "2024",
+      "2024|62"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 455376876,
+    "Key": "622",
+    "Value": "Hospitales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|62|622",
+    "LevelId": "Industria",
+    "Parent": "2024|62",
+    "Ancestors": [
+      "2024",
+      "2024|62"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 455376875,
+    "Key": "623",
+    "Value": "Residencias de asistencia social y para el cuidado de la salud",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|62|623",
+    "LevelId": "Industria",
+    "Parent": "2024|62",
+    "Ancestors": [
+      "2024",
+      "2024|62"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 455376870,
+    "Key": "624",
+    "Value": "Otros servicios de asistencia social",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|62|624",
+    "LevelId": "Industria",
+    "Parent": "2024|62",
+    "Ancestors": [
+      "2024",
+      "2024|62"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1215268406,
+    "Key": "71",
+    "Value": "Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",
+    "CreditLensStandardIndustry": "Arts",
+    "HierarchyKey": "2024|71",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 939730709,
+    "Key": "711",
+    "Value": "Servicios artísticos, culturales y deportivos, y otros servicios relacionados",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|71|711",
+    "LevelId": "Industria",
+    "Parent": "2024|71",
+    "Ancestors": [
+      "2024",
+      "2024|71"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 939730708,
+    "Key": "712",
+    "Value": "Museos, sitios históricos, zoológicos y similares",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|71|712",
+    "LevelId": "Industria",
+    "Parent": "2024|71",
+    "Ancestors": [
+      "2024",
+      "2024|71"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 939730707,
+    "Key": "713",
+    "Value": "Servicios de entretenimiento en instalaciones recreativas y otros servicios recreativos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|71|713",
+    "LevelId": "Industria",
+    "Parent": "2024|71",
+    "Ancestors": [
+      "2024",
+      "2024|71"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1215268409,
+    "Key": "72",
+    "Value": "Servicios de alojamiento temporal y de preparación de alimentos y bebidas",
+    "CreditLensStandardIndustry": "Accommodation",
+    "HierarchyKey": "2024|72",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 536447141,
+    "Key": "721",
+    "Value": "Servicios de alojamiento temporal",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|72|721",
+    "LevelId": "Industria",
+    "Parent": "2024|72",
+    "Ancestors": [
+      "2024",
+      "2024|72"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 536447142,
+    "Key": "722",
+    "Value": "Servicios de preparación de alimentos y bebidas",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|72|722",
+    "LevelId": "Industria",
+    "Parent": "2024|72",
+    "Ancestors": [
+      "2024",
+      "2024|72"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 1618552933,
+    "Key": "81",
+    "Value": "Otros servicios excepto actividades gubernamentales",
+    "CreditLensStandardIndustry": "Other",
+    "HierarchyKey": "2024|81",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 360397093,
+    "Key": "811",
+    "Value": "Servicios de reparación y mantenimiento",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|81|811",
+    "LevelId": "Industria",
+    "Parent": "2024|81",
+    "Ancestors": [
+      "2024",
+      "2024|81"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 360397094,
+    "Key": "812",
+    "Value": "Servicios personales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|81|812",
+    "LevelId": "Industria",
+    "Parent": "2024|81",
+    "Ancestors": [
+      "2024",
+      "2024|81"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 360397095,
+    "Key": "813",
+    "Value": "Asociaciones y organizaciones",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|81|813",
+    "LevelId": "Industria",
+    "Parent": "2024|81",
+    "Ancestors": [
+      "2024",
+      "2024|81"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 360397096,
+    "Key": "814",
+    "Value": "Hogares con empleados domésticos",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|81|814",
+    "LevelId": "Industria",
+    "Parent": "2024|81",
+    "Ancestors": [
+      "2024",
+      "2024|81"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 52468994,
+    "Key": "93",
+    "Value": "Actividades legislativas, gubernamentales, de impartición de justicia y de organismos internacionales y extraterritoriales",
+    "CreditLensStandardIndustry": "Public",
+    "HierarchyKey": "2024|93",
+    "LevelId": "Sector",
+    "Parent": "2024",
+    "Ancestors": [
+      "2024"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 263354421,
+    "Key": "931",
+    "Value": "Actividades legislativas, gubernamentales y de impartición de justicia",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|93|931",
+    "LevelId": "Industria",
+    "Parent": "2024|93",
+    "Ancestors": [
+      "2024",
+      "2024|93"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  },
+  {
+    "Type": "CTMSCIANINDUSTRY",
+    "HierarchyKeyInt": 263354420,
+    "Key": "932",
+    "Value": "Organismos internacionales y extraterritoriales",
+    "CreditLensStandardIndustry": null,
+    "HierarchyKey": "2024|93|932",
+    "LevelId": "Industria",
+    "Parent": "2024|93",
+    "Ancestors": [
+      "2024",
+      "2024|93"
+    ],
+    "Active": false,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmScianIndustry"
+  }
+]

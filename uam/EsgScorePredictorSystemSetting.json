@@ -1,0 +1,26 @@
+[
+  {
+    "EsgScorePredictorSystemSettingId": "fbb5a0c3-030f-4ef6-b1ca-1530907e1e6c",
+    "EnableEsgScorePredictor": false,
+    "ApiUrl": "https://api.creditedge.com/v1/ESG/ProxyScore",
+    "PublicKey": null,
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 20,
+    "BaseVersionId_": 3,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2025-04-09T09:04:21.952393Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2025-10-06T18:42:28.954799Z",
+    "t_": "EsgScorePredictorSystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

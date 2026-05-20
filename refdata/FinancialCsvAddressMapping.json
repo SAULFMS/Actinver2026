@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "FINANCIALCSVADDRESSMAPPING",
+    "IdInt": 1236036043,
+    "Id": "STATE",
+    "TargetAttribute": "State",
+    "SourceAttribute": "Estado",
+    "DefaultValue": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "FinancialCsvAddressMapping"
+  }
+]

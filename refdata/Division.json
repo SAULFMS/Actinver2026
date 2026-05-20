@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "DIVISION",
+    "KeyInt": 705176971,
+    "Key": "Corporate",
+    "Value": "Corporate",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 521311663,
+    "Key": "Corporativa Grande",
+    "Value": "Corporativa Grande",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1604600259,
+    "Key": "Corporativa Mediana",
+    "Value": "Corporativa Mediana",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 904007609,
+    "Key": "FinancialInstitution",
+    "Value": "Financial Institution",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1295950538,
+    "Key": "Financiera",
+    "Value": "Financiera",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1517257555,
+    "Key": "Grande",
+    "Value": "Grande",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1998347524,
+    "Key": "LargeCorporate",
+    "Value": "Large Corporate",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 2007630874,
+    "Key": "Micro/PYME",
+    "Value": "Micro/PYME",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 563821002,
+    "Key": "Multinacional",
+    "Value": "Multinacional",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1009905946,
+    "Key": "NonFinancialInstitution",
+    "Value": "Non-Financial Institution",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  }
+]

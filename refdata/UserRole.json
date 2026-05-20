@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "USERROLE",
+    "KeyInt": 250108834,
+    "Key": "AC",
+    "Value": "Analista de Crédito",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 124732308,
+    "Key": "CPM",
+    "Value": "Crédito PM",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1412908245,
+    "Key": "DA",
+    "Value": "Director de Análisis",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1412908266,
+    "Key": "SA",
+    "Value": "Super Administrador",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1591023446,
+    "Key": "SE",
+    "Value": "Seguridad",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 71993672,
+    "Key": "SO",
+    "Value": "Service Desk",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 161685511,
+    "Key": "SuA",
+    "Value": "Supervisor de Análisis",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  }
+]

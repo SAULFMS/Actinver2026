@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DATAFILEIMPORTMAP",
+    "ModelInt": 1423724901,
+    "Model": "CSV_GENBANK_IMPORT",
+    "ViewModel": null,
+    "Active": true,
+    "ModuleId": "FinancialAnalysis",
+    "Order": 2,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "DataFileImportMap"
+  },
+  {
+    "Type": "DATAFILEIMPORTMAP",
+    "ModelInt": 303774849,
+    "Model": "CSV_MMAS_IMPORT",
+    "ViewModel": null,
+    "Active": true,
+    "ModuleId": "FinancialAnalysis",
+    "Order": 1,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "DataFileImportMap"
+  }
+]

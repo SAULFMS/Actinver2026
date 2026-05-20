@@ -1,0 +1,20 @@
+[
+  {
+    "Type": "FINANCIALCSVIMPORTMAPPING",
+    "IdInt": 736959249,
+    "Id": "GENBANK_MAPPING",
+    "FileName": "FAImport_GENBANK.csv",
+    "FinancialTemplate": "25",
+    "IgnoreUniquenessValidation": null,
+    "SubType": null,
+    "AccountMappingRefData": "FinancialCsvGENBANKMapping",
+    "ConstantMappingRefData": "FinancialCsvGenbankConstantMapping",
+    "EntityCreateVm": "FinancialCsvEntityCreate",
+    "EntityUpdateVm": "FinancialCsvEntityCreate",
+    "OverwriteReconcileTo": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "FinancialCsvImportMapping"
+  }
+]

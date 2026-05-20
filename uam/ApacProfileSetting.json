@@ -1,0 +1,26 @@
+[
+  {
+    "ApacProfileSettingId": "9de209ae-03ab-48b5-b0f0-268eab0ed470",
+    "FunctionalProfileSettingId": "70d20584-3252-4b5b-a6ed-26756db666b7",
+    "ApproveCallReport": null,
+    "Inapplicable_": [
+      "ApproveCallReport"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 20,
+    "BaseVersionId_": 3,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2025-04-09T09:04:21.952393Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2025-10-06T18:42:25.640534Z",
+    "t_": "ApacProfileSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

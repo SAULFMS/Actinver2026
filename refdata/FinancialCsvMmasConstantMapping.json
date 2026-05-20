@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "FINANCIALCSVMMASCONSTANTMAPPING",
+    "IdInt": 1474309946,
+    "Id": "CONSOLIDATION",
+    "ConstantType": "STATEMENT_CONSTANT",
+    "TargetAttribute": "Consolidation",
+    "SourceAttribute": "Consolidation",
+    "DefaultValue": "",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "FinancialCsvMmasConstantMapping"
+  }
+]

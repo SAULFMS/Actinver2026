@@ -1,0 +1,26 @@
+[
+  {
+    "ApacSystemSettingId": "d0ace547-5ddd-47c5-8f31-f6203dffece3",
+    "ProposalSearchType": "STANDARD",
+    "SendCallReportInvite": null,
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "EmailAttachmentLimit": null,
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 20,
+    "BaseVersionId_": 3,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2025-04-09T09:04:21.952393Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2025-10-06T18:42:29.319209Z",
+    "t_": "ApacSystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

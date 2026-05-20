@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "INDUSTRYCLASSIFICATIONMAPPING",
+    "ArtifactInt": 2066674372,
+    "Artifact": "CtmScianIndustry",
+    "IndClassification": "SCIAN",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "IndustryClassificationMapping"
+  }
+]

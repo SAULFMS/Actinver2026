@@ -1,0 +1,25 @@
+[
+  {
+    "PolicyCategoryId": "1f351210-9c29-49f8-8362-d945d2e0261e",
+    "Inapplicable_": [],
+    "Associations_": [
+      "ModelPolicy"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 20,
+    "BaseVersionId_": 3,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2025-04-09T09:04:21.952393Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2025-10-06T18:42:27.486151Z",
+    "t_": "ModelPolicyMain",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

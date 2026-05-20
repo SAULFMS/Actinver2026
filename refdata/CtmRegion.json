@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "CTMREGION",
+    "KeyInt": 754856911,
+    "Key": "Bajío",
+    "Value": "Bajío",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmRegion"
+  },
+  {
+    "Type": "CTMREGION",
+    "KeyInt": 479179693,
+    "Key": "Metro",
+    "Value": "Metro",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmRegion"
+  },
+  {
+    "Type": "CTMREGION",
+    "KeyInt": 1470775538,
+    "Key": "Norte",
+    "Value": "Norte",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmRegion"
+  },
+  {
+    "Type": "CTMREGION",
+    "KeyInt": 1682498460,
+    "Key": "Occidente",
+    "Value": "Occidente",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmRegion"
+  },
+  {
+    "Type": "CTMREGION",
+    "KeyInt": 633399927,
+    "Key": "Sureste",
+    "Value": "Sureste",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmRegion"
+  }
+]
